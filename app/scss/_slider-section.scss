@@ -1,0 +1,27 @@
+.owl-carousel {
+  height: 250px;
+  .owl-item{
+    height: 250px;
+  }
+  .owl-prev,
+  .owl-next {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(126, 85, 10) !important;
+    color: springgreen !important;
+    &:hover{
+      background-color: slateblue !important;
+    }
+}
+
+.owl-prev {
+    left: -50px;
+}
+
+.owl-next {
+    right: -50px;
+}
+}

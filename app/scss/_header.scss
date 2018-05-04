@@ -15,7 +15,7 @@ header{
         top: -40px;
         z-index: 1;
         background-color: $light-green;
-        border: 3px solid $cream;
+        border: 8px solid $cream;
         border-radius: 30px;
         transition: all 0.5s;
         -webkit-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.3);
@@ -43,7 +43,7 @@ box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.3);
             right: 7px;
             bottom: 7px;
             border: 4px dotted $cream;
-            border-radius: 30px;
+            border-radius: 25px;
             }
         .empty{
             height: 30px;
@@ -62,9 +62,9 @@ box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.3);
             padding: 0;
             border: 5px solid $cream;
             border-radius: 50%;
-            -webkit-box-shadow: 0px 0px 16px -2px rgba(214,4,22,0.71);
--moz-box-shadow: 0px 0px 16px -2px rgba(214,4,22,0.71);
-box-shadow: 0px 0px 16px -2px rgba(214,4,22,0.71);
+            -webkit-box-shadow: 0px 0px 16px -2px rgba(255, 206, 210,0.71);
+-moz-box-shadow: 0px 0px 16px -2px rgba(255, 206, 210,0.71);
+box-shadow: 0px 0px 16px -2px rgba(255, 206, 210, 0.71);
         }
     }
     #roof{

@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fdf3f6; }
+  background-color: #fdf6f8; }
   body > * {
     padding: 0 1%;
     text-align: center;
@@ -26,7 +26,7 @@ header {
     top: -40px;
     z-index: 1;
     background-color: #94c9bf;
-    border: 3px solid #ffefdc;
+    border: 8px solid #ffefdc;
     border-radius: 30px;
     transition: all 0.5s;
     -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.3);
@@ -53,7 +53,7 @@ header {
       right: 7px;
       bottom: 7px;
       border: 4px dotted #ffefdc;
-      border-radius: 30px; }
+      border-radius: 25px; }
     header #logo .empty {
       height: 30px;
       width: 100%; }
@@ -68,9 +68,9 @@ header {
       padding: 0;
       border: 5px solid #ffefdc;
       border-radius: 50%;
-      -webkit-box-shadow: 0px 0px 16px -2px rgba(214, 4, 22, 0.71);
-      -moz-box-shadow: 0px 0px 16px -2px rgba(214, 4, 22, 0.71);
-      box-shadow: 0px 0px 16px -2px rgba(214, 4, 22, 0.71); }
+      -webkit-box-shadow: 0px 0px 16px -2px rgba(255, 206, 210, 0.71);
+      -moz-box-shadow: 0px 0px 16px -2px rgba(255, 206, 210, 0.71);
+      box-shadow: 0px 0px 16px -2px rgba(255, 206, 210, 0.71); }
   header #roof {
     position: absolute;
     width: 100%;
@@ -127,3 +127,24 @@ header {
       color: #f02252; }
       .navbar li.nav-item a.nav-link:hover {
         color: #fa0404; }
+
+.owl-carousel {
+  height: 250px; }
+  .owl-carousel .owl-item {
+    height: 250px; }
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #7e550a !important;
+    color: springgreen !important; }
+    .owl-carousel .owl-prev:hover,
+    .owl-carousel .owl-next:hover {
+      background-color: slateblue !important; }
+  .owl-carousel .owl-prev {
+    left: -50px; }
+  .owl-carousel .owl-next {
+    right: -50px; }
