@@ -1,0 +1,84 @@
+header{
+    position: relative;
+    z-index: 2;
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    width: 100vw;
+    margin: 0;
+    
+    #logo{
+        padding: 20px 15px;
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 55%;
+        top: -40px;
+        z-index: 1;
+        background-color: $light-green;
+        border: 3px solid $cream;
+        border-radius: 30px;
+        transition: all 0.5s;
+        -webkit-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.3);
+box-shadow: 0px 3px 11px -4px rgba(0,0,0,0.3);
+
+        /* &:before {
+            content: " ";
+            position: absolute;
+            background-color: $light-green;
+            z-index: -2;
+            top: -13px;
+            left: -13px;
+            right: -13px;
+            bottom: -13px;
+            border: 3px solid $light-yellow;
+            border-radius: 30px;
+            } */
+        &:after {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            top: -3px;
+            left: 7px;
+            right: 7px;
+            bottom: 7px;
+            border: 4px dotted $cream;
+            border-radius: 30px;
+            }
+        .empty{
+            height: 30px;
+            width: 100%;
+        }
+        .brand-name{
+            font-size: 3em;
+            color: $light-pink;
+            text-shadow: 2px 3px 4px #ffd8da;
+            padding: 0 5px;
+        }
+    
+        img{
+            width: 120px;
+            height: 120px;
+            padding: 0;
+            border: 5px solid $cream;
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 0px 16px -2px rgba(214,4,22,0.71);
+-moz-box-shadow: 0px 0px 16px -2px rgba(214,4,22,0.71);
+box-shadow: 0px 0px 16px -2px rgba(214,4,22,0.71);
+        }
+    }
+    #roof{
+            position: absolute;
+            width: 100%;
+            height: 90px;
+            top: -30px;
+            left: 0;
+            background-image: url(../images/falbana.png);
+            background-repeat: repeat-x;
+            background-size: contain;
+            background-position: center;
+        }    
+
+
+}
+
