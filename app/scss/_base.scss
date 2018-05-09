@@ -3,10 +3,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // background-color: $body-color;
-    background-image: url(../images/strips-pink.jpg);
+    background-color: $body-color;
+    // background-image: url(../images/shelfs-bg.JPG);
     // @include bg-body;
-    background-repeat: repeat;
+    // background-repeat: repeat-x;
+    // background-size: 750px;
+    // background-position: top;
     
     >*{
         padding: 0 1%; 

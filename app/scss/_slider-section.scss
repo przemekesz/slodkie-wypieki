@@ -6,25 +6,26 @@
   
   .owl-carousel {
     max-width: 70%;
-    .owl-stage{
+    
+    .owl-stage-outer { 
+      .owl-stage{
+        margin-bottom: 60px;
       
         .owl-item{
-          
-         /*  &:after{
-            z-index: 33;
-            position:absolute;
-            bottom:-20px;
-            left:5%;
-            content:"";
-            background:gray;
-            height:20px;
-            width:90%;
-    } */
+            border:3px solid $light-green;
+            padding: 7px;
+            -webkit-box-shadow: 0px 87px 43px -53px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 87px 43px -53px rgba(0,0,0,0.16);
+box-shadow: 0px 87px 43px -53px rgba(0,0,0,0.16);
+            
+        }
+      }
   }
 }
   /* BUTTON STYLE */
     .owl-prev,
     .owl-next {
+    outline: none;
     height: 40px;
     width: 40px;
     position: absolute;
@@ -71,15 +72,14 @@
     z-index: 0;
     padding: 0;
     img{
-        margin-top: -60px;  
+        margin-top: -100px;  
         height: auto;
         width: 100%;
         @media #{$medium-screen} {
-          margin-top: -30px;
+          margin-top: -60px;
         }
         @media #{$small-screen} {
-          margin-top: -10px;
+          margin-top: -20px;
         }
       }
   }
-}

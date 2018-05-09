@@ -1,6 +1,30 @@
 #about{
-    margin-top: 40px;
-    
+    .bg-article{
+        height: 100%;
+        width: 90%;
+        top: 0px;
+        position: absolute;
+        background-image: url(../images/head-bg.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+    position: relative;
+    z-index: -1;
+    top: -160px;
+    padding-top: 160px;
+    // background-color: $light-yellow;
+    background-image: url(../images/strips.png);
+    // &:before{
+    //     position: absolute;
+    //     content: "";
+    //     width: 100vw;
+    //     height: 15px;
+    //     top: -15px;
+    //     left: 0;
+    //     right: 0;
+    //     @include green-gradient;
+    // }
     article{
     height: 500px;
     background-color: white;
