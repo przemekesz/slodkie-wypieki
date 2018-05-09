@@ -3,13 +3,16 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: $body-color;
+    // background-color: $body-color;
+    background-image: url(../images/strips-pink.jpg);
+    // @include bg-body;
+    background-repeat: repeat;
     
     >*{
         padding: 0 1%; 
         text-align: center;
-        width: 1200px;
-        margin: auto;
+        // width: 1200px;
+        margin: 0 10% auto;
     
         
     }

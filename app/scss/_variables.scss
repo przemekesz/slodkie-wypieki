@@ -6,4 +6,14 @@ $light-green: #94c9bf;
 $lighter-green: #d3fff6;
 $light-pink: #f3484d;
 $cream: rgb(255, 239, 220);
-$body-color: #fdf6f8;
+$body-color: #fff3f7;
+
+$small-screen: "only screen and (max-width : 575px)";
+$medium-screen: "only screen and (max-width : 991px)";
+$large-screen: "only screen and (max-width : 1200px)";
+$wide-screen: "only screen and (min-width : 1200px)";
+
+$medium-screen-plus: "only screen and (min-width : 991px)";
+
+
+$navbar-light-toggler-bg: red;
